@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .line {
+            width: 100%;
+            background-color: blue;
+            height: 25px;
+            margin-bottom: 10px;
+            
+            transition: width;
+            transition-duration: 1s;
+        }
+
+
+        body:hover .line {
+            width: 20px;
+            background-color: rgb(255, 0, 234);
+        }
+
+        .ease {
+            transition-timing-function: ease;
+        }
+
+        .linear {
+            transition-timing-function: linear;
+        }
+        
+        .ease-in {
+            transition-timing-function: ease-in;
+        }
+
+        .ease-out {
+            transition-timing-function: ease-out;
+        }
+
+        .ease-in-out {
+            transition-timing-function: ease-in-out;
+        }
+        
+        .cubic-bezier {
+            transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+        }
+
+    </style>
+    <title>Transition Time Funcition</title>
+</head>
+<body>
+    <div class="line ease" >Início lento, rápido e final lento (este é o padrão)</div>
+    <div class="line linear" >Mesma velocidade do início ao fim</div>
+    <div class="line ease-in" >Início lento</div>
+    <div class="line ease-out" >Final lento</div>
+    <div class="line ease-in-out" >Início e fim lentos</div>
+    <div class="line cubic-bezier" >ermite definir seus próprios valores em uma função cubic-bezier</div>
+    
+    
+</body>
+</html>

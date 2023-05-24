@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  
+}
+
+.box-red, .box-yellow, .box-blue, .box-orange {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    
+}
+
+.box-red {
+    background-color: red;
+   /* transition-property: all; /*Qualquer propriedade que alterar esse retorno será aplicado */
+   /* transition-duration: 2s; */
+   transition: background-color, width 2s ease 2s;
+}
+
+.box-red:hover {
+    background-color: yellow;
+    transition-property: background-color, width;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    width: 200px;
+
+}
+
+.box-yellow {
+    background-color: yellow;
+    transition: all 1s linear 0s;
+    
+}
+
+
+.box-yellow:hover {
+  transition: all 1s cubic-bezier(0.23, 1, 0.320, 1);
+  background-color: rgb(255, 0, 208 ); 
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.box-blue {
+    background-color: blue;
+    transition: width 2s linear 1s;
+}
+
+.box-blue:hover {
+    transition: width 2s ease-in-out os;
+    width: 200px;
+}
+
+.box-orange {
+    background-color: orange;
+    transition: opacity 2s linear 1s;
+}
+
+
+.box-orange:hover {
+    opacity: 0;
+    transition: opacity 1s linear 0s;
+}
+
+.target {
+    font-size: 14px;
+    transition: font-size 1s linear 2s;
+
+}
+
+.target:hover {
+    font-size: 36px;
+    transition: font-size 1s ease-in 1s;
+}

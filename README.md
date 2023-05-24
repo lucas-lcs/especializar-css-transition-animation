@@ -26,3 +26,14 @@ transition-delay é uma propriedade CSS que permite atrasar o inicio de uma tran
 **Transition property all**
 
 transition-property: all, é usado para aplicar transição em todos os elementos quantificáveis disponíveis e que estejam sofrendo alteração
+
+
+## Resultados do transition e Transition Timming Function 
+
+- *Transition*
+
+![Peek 24-05-2023 05-54](https://github.com/lucas-lcs/especializar-css-transition-animation/assets/121250838/88a71462-c8f0-4b81-9c35-d8a5d13e5bf4)
+
+- *Transition Timming Function*
+
+![Peek 24-05-2023 05-55](https://github.com/lucas-lcs/especializar-css-transition-animation/assets/121250838/d4d4692d-13e0-4b57-81b2-df29e8e345bb)

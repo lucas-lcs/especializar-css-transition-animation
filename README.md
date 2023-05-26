@@ -38,7 +38,7 @@ transition-property: all, é usado para aplicar transição em todos os elemento
 
 ![Peek 24-05-2023 05-54](https://github.com/lucas-lcs/especializar-css-transition-animation/assets/121250838/88a71462-c8f0-4b81-9c35-d8a5d13e5bf4)
 
-- *Transition Timming Function*
+- *Transition Timing Function*
 
 ![Peek 24-05-2023 05-55](https://github.com/lucas-lcs/especializar-css-transition-animation/assets/121250838/d4d4692d-13e0-4b57-81b2-df29e8e345bb)
 
@@ -81,6 +81,6 @@ A propriedade [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) define c
 ![animation](https://github.com/lucas-lcs/especializar-css-transition-animation/assets/121250838/a1e80401-de4c-4982-9376-e73abcda46c3)
 
 
-*Animation Timming Function*
+*Animation Timing Function*
 
 ![animation](https://github.com/lucas-lcs/especializar-css-transition-animation/assets/121250838/055820c8-935f-4213-a14e-bca0529b5c66)
